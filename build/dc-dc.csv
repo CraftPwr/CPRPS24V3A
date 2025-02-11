@@ -1,0 +1,72 @@
+null,Sourced,Placed,References,Value,Footprint,Quantity
+1,,,"C11, C13, C14, C15, C16, C20, C21, C22, C23, C24, C25",10uF,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,11
+2,,,"C2, C4, C12, C26",1uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,4
+3,,,"C5, C6",0.1uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,2
+4,,,"C18, C19",0.01uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,2
+5,,,C1,22uF,CP_Elec_6.3x7.7,1
+6,,,C3,10uF 50V,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,1
+7,,,C7,(OPT),C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1
+8,,,C8,100uF,CP_Elec_6.3x7.7,1
+9,,,C9,1nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1
+10,,,C10,DNP,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,1
+11,,,C17,10uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1
+12,,,"R7, R13, R16, R23, R24",1K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,5
+13,,,"R8, R25, R26",10K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,3
+14,,,"R1, R11",5.1K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,2
+15,,,"R5, R29",549E,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,2
+16,,,"R18, R19",100K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,2
+17,,,"R30, R31",10K,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,2
+18,,,"R32, R33",0.01E,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,2
+19,,,R2,2.7K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+20,,,R3,499K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+21,,,R4,55K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+22,,,R6,60.4K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+23,,,R9,200E,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+24,,,R10,47.5K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+25,,,R12,(OPT),R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+26,,,R14,4.99K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+27,,,R15,73.2K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+28,,,R17,11.3K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+29,,,R20,806K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+30,,,R21,1.47M,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+31,,,R22,280K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+32,,,R27,3.92K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+33,,,R28,100E,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+34,,,L1,5.5uH,L_12x12mm_H4.5mm,1
+35,,,L2,470uH,L_1210_3225Metric_Pad1.42x2.65mm_HandSolder,1
+36,,,D1,LED,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1
+37,,,D2,B140,D_SMA,
+Schottky Diode 1A 40V 0.5Vf SMA | Diodes Inc B140-13-F,,,,,,
+,Diodes Inc.,,,,,
+38,,,U1,LT3092EDD,DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm_ThermalVias,
+200mA 2-Terminal Programmable Current Source,,,,,,
+,,lt3092edd#pbf,,,,
+39,,,U2,LTC3632EDD,DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm_ThermalVias,
+Buck Switching Regulator IC Positive or Negative Adjustable 0.8V 1 Output 20mA 8-WFDFN Exposed Pad,,,,,,
+,,ltc3632edd#pbf,,,,
+40,,,SW1,SW_SPDT_321,PinHeader_1x03_P2.54mm_Vertical,1
+41,,,"GND1, GND3",~,"PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical",
+PCB Terminal Screw 2.54mm 20AWG 160V 6A 2 Position COMBICON MPT Series | Phoenix Contact 1725656,,,,,,
+,,,,,,
+42,,,"GND2, TEMP1",TestPoint,PinHeader_1x01_P2.54mm_Vertical,2
+43,,,"IC2, IC3",LT3081ER_PBF,TO-263-7_TabPin8,
+1.5A Single Resistor Rugged Linear Regulator with Monitors,,,,,,
+,,,,,,
+44,,,"IMON1, TEMP2",10V-40V,PinHeader_1x01_P2.54mm_Vertical,2
+45,,,"Q3, Q4",MMBT3906,SOT-23-3,2
+46,,,DNP1,5.1K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1
+47,,,IC1,LT8612EUDE#PBF,QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mm_ThermalVias,1
+48,,,Q1,SI2309CDS,SOT-23-3,
+60V 1.6A 1.7W 345mohm @ 10V | Siliconix / Vishay SI2309CDS-T1-E3,,,,,,
+,Vishay Siliconix,,,,,
+49,,,Q2,CMST3904,SOT-23-3,1
+50,,,Q5,FMMT493,SOT-23-3,1
+51,,,RV1,10K,PinHeader_1x03_P2.54mm_Vertical,1
+52,,,RV2,5K,PinHeader_1x03_P2.54mm_Vertical,1
+53,,,Vin1,10V-40V,"PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical",
+PCB Terminal Screw 2.54mm 20AWG 160V 6A 2 Position COMBICON MPT Series | Phoenix Contact 1725656,,,,,,
+,,,,,,
+54,,,Vout1,0V-24V,"PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical",
+PCB Terminal Screw 2.54mm 20AWG 160V 6A 2 Position COMBICON MPT Series | Phoenix Contact 1725656,,,,,,
+,,,,,,
+55,,,J1,Conn_02x03_Odd_Even,PinHeader_2x03_P2.54mm_Vertical,1
